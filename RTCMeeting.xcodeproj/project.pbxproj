@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7823A2511E81104D009090A7 /* RTMPCHybirdEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAFB6D1E81103500734B43 /* RTMPCHybirdEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78BDB2FE1E711F62008E614E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB2FD1E711F62008E614E /* main.m */; };
+		78BDB3011E711F62008E614E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB3001E711F62008E614E /* AppDelegate.m */; };
+		78BDB3041E711F62008E614E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB3031E711F62008E614E /* ViewController.m */; };
+		78BDB3071E711F62008E614E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BDB3051E711F62008E614E /* Main.storyboard */; };
+		78BDB3091E711F62008E614E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BDB3081E711F62008E614E /* Assets.xcassets */; };
+		78BDB30C1E711F62008E614E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BDB30A1E711F62008E614E /* LaunchScreen.storyboard */; };
+		78BDB3171E711F62008E614E /* RTCMeetingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB3161E711F62008E614E /* RTCMeetingTests.m */; };
+		78BDB3221E711F62008E614E /* RTCMeetingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB3211E711F62008E614E /* RTCMeetingUITests.m */; };
+		78BDB3401E7124BA008E614E /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB33F1E7124BA008E614E /* OneViewController.m */; };
+		78BDB3431E7124EB008E614E /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB3421E7124EB008E614E /* TwoViewController.m */; };
+		78BDB34D1E712901008E614E /* ASHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB34A1E712901008E614E /* ASHUD.m */; };
+		78BDB34E1E712901008E614E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB34C1E712901008E614E /* MBProgressHUD.m */; };
+		78BDB35C1E7148E9008E614E /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB35B1E7148E9008E614E /* UINavigationController+FDFullscreenPopGesture.m */; };
+		78EAFB6E1E81103500734B43 /* RTMPCHybirdEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EAFB6D1E81103500734B43 /* RTMPCHybirdEngine.framework */; };
+		B39BC2DAB41E4B7D3B1AC859 /* libPods-RTCMeeting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF49E154B044CC648F224EDA /* libPods-RTCMeeting.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78BDB3131E711F62008E614E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BDB2F11E711F62008E614E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BDB2F81E711F62008E614E;
+			remoteInfo = RTCMeeting;
+		};
+		78BDB31E1E711F62008E614E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BDB2F11E711F62008E614E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BDB2F81E711F62008E614E;
+			remoteInfo = RTCMeeting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78BDB33D1E712122008E614E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7823A2511E81104D009090A7 /* RTMPCHybirdEngine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1245807C9FD57A38D20F50F1 /* Pods-RTCMeeting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCMeeting.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTCMeeting/Pods-RTCMeeting.release.xcconfig"; sourceTree = "<group>"; };
+		78BDB2F91E711F62008E614E /* RTCMeeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTCMeeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BDB2FD1E711F62008E614E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78BDB2FF1E711F62008E614E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78BDB3001E711F62008E614E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78BDB3021E711F62008E614E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78BDB3031E711F62008E614E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78BDB3061E711F62008E614E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78BDB3081E711F62008E614E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78BDB30B1E711F62008E614E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78BDB30D1E711F62008E614E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BDB3121E711F62008E614E /* RTCMeetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTCMeetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BDB3161E711F62008E614E /* RTCMeetingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTCMeetingTests.m; sourceTree = "<group>"; };
+		78BDB3181E711F62008E614E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BDB31D1E711F62008E614E /* RTCMeetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTCMeetingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BDB3211E711F62008E614E /* RTCMeetingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTCMeetingUITests.m; sourceTree = "<group>"; };
+		78BDB3231E711F62008E614E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BDB33E1E7124BA008E614E /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		78BDB33F1E7124BA008E614E /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		78BDB3411E7124EB008E614E /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		78BDB3421E7124EB008E614E /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		78BDB3471E712798008E614E /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		78BDB3491E712901008E614E /* ASHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHUD.h; sourceTree = "<group>"; };
+		78BDB34A1E712901008E614E /* ASHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHUD.m; sourceTree = "<group>"; };
+		78BDB34B1E712901008E614E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		78BDB34C1E712901008E614E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		78BDB35A1E7148E9008E614E /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		78BDB35B1E7148E9008E614E /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		78EAFB6D1E81103500734B43 /* RTMPCHybirdEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTMPCHybirdEngine.framework; sourceTree = "<group>"; };
+		AB51D7C2A528A0159EBA397E /* Pods-RTCMeeting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTCMeeting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTCMeeting/Pods-RTCMeeting.debug.xcconfig"; sourceTree = "<group>"; };
+		DF49E154B044CC648F224EDA /* libPods-RTCMeeting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTCMeeting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78BDB2F61E711F62008E614E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39BC2DAB41E4B7D3B1AC859 /* libPods-RTCMeeting.a in Frameworks */,
+				78EAFB6E1E81103500734B43 /* RTMPCHybirdEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDB30F1E711F62008E614E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDB31A1E711F62008E614E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78BDB2F01E711F62008E614E = {
+			isa = PBXGroup;
+			children = (
+				78BDB3381E712106008E614E /* lib */,
+				78BDB2FB1E711F62008E614E /* RTCMeeting */,
+				78BDB3151E711F62008E614E /* RTCMeetingTests */,
+				78BDB3201E711F62008E614E /* RTCMeetingUITests */,
+				78BDB2FA1E711F62008E614E /* Products */,
+				B7679CE0744B1BC731DC925B /* Pods */,
+				D32917B25E30C96FCDF85B1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78BDB2FA1E711F62008E614E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BDB2F91E711F62008E614E /* RTCMeeting.app */,
+				78BDB3121E711F62008E614E /* RTCMeetingTests.xctest */,
+				78BDB31D1E711F62008E614E /* RTCMeetingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78BDB2FB1E711F62008E614E /* RTCMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				78BDB2FF1E711F62008E614E /* AppDelegate.h */,
+				78BDB3001E711F62008E614E /* AppDelegate.m */,
+				78BDB3021E711F62008E614E /* ViewController.h */,
+				78BDB3031E711F62008E614E /* ViewController.m */,
+				78BDB33E1E7124BA008E614E /* OneViewController.h */,
+				78BDB33F1E7124BA008E614E /* OneViewController.m */,
+				78BDB3411E7124EB008E614E /* TwoViewController.h */,
+				78BDB3421E7124EB008E614E /* TwoViewController.m */,
+				78BDB3471E712798008E614E /* Config.h */,
+				78BDB3051E711F62008E614E /* Main.storyboard */,
+				78BDB3081E711F62008E614E /* Assets.xcassets */,
+				78BDB30A1E711F62008E614E /* LaunchScreen.storyboard */,
+				78BDB30D1E711F62008E614E /* Info.plist */,
+				78BDB2FC1E711F62008E614E /* Supporting Files */,
+			);
+			path = RTCMeeting;
+			sourceTree = "<group>";
+		};
+		78BDB2FC1E711F62008E614E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BDB2FD1E711F62008E614E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BDB3151E711F62008E614E /* RTCMeetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				78BDB3161E711F62008E614E /* RTCMeetingTests.m */,
+				78BDB3181E711F62008E614E /* Info.plist */,
+			);
+			path = RTCMeetingTests;
+			sourceTree = "<group>";
+		};
+		78BDB3201E711F62008E614E /* RTCMeetingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78BDB3211E711F62008E614E /* RTCMeetingUITests.m */,
+				78BDB3231E711F62008E614E /* Info.plist */,
+			);
+			path = RTCMeetingUITests;
+			sourceTree = "<group>";
+		};
+		78BDB3381E712106008E614E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				78EAFB6D1E81103500734B43 /* RTMPCHybirdEngine.framework */,
+				78BDB3591E7148E9008E614E /* Categate */,
+				78BDB3481E712901008E614E /* MBProgressHUD */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		78BDB3481E712901008E614E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				78BDB3491E712901008E614E /* ASHUD.h */,
+				78BDB34A1E712901008E614E /* ASHUD.m */,
+				78BDB34B1E712901008E614E /* MBProgressHUD.h */,
+				78BDB34C1E712901008E614E /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		78BDB3591E7148E9008E614E /* Categate */ = {
+			isa = PBXGroup;
+			children = (
+				78BDB35A1E7148E9008E614E /* UINavigationController+FDFullscreenPopGesture.h */,
+				78BDB35B1E7148E9008E614E /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = Categate;
+			sourceTree = "<group>";
+		};
+		B7679CE0744B1BC731DC925B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB51D7C2A528A0159EBA397E /* Pods-RTCMeeting.debug.xcconfig */,
+				1245807C9FD57A38D20F50F1 /* Pods-RTCMeeting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D32917B25E30C96FCDF85B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF49E154B044CC648F224EDA /* libPods-RTCMeeting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78BDB2F81E711F62008E614E /* RTCMeeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BDB3261E711F62008E614E /* Build configuration list for PBXNativeTarget "RTCMeeting" */;
+			buildPhases = (
+				FE63CFB741392C0711FE5ED6 /* [CP] Check Pods Manifest.lock */,
+				78BDB2F51E711F62008E614E /* Sources */,
+				78BDB2F61E711F62008E614E /* Frameworks */,
+				78BDB2F71E711F62008E614E /* Resources */,
+				78BDB33D1E712122008E614E /* Embed Frameworks */,
+				CE43E20400BE3F48BE0A6191 /* [CP] Embed Pods Frameworks */,
+				2AF602542FDAEEC909E094E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTCMeeting;
+			productName = RTCMeeting;
+			productReference = 78BDB2F91E711F62008E614E /* RTCMeeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78BDB3111E711F62008E614E /* RTCMeetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BDB3291E711F62008E614E /* Build configuration list for PBXNativeTarget "RTCMeetingTests" */;
+			buildPhases = (
+				78BDB30E1E711F62008E614E /* Sources */,
+				78BDB30F1E711F62008E614E /* Frameworks */,
+				78BDB3101E711F62008E614E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BDB3141E711F62008E614E /* PBXTargetDependency */,
+			);
+			name = RTCMeetingTests;
+			productName = RTCMeetingTests;
+			productReference = 78BDB3121E711F62008E614E /* RTCMeetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78BDB31C1E711F62008E614E /* RTCMeetingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BDB32C1E711F62008E614E /* Build configuration list for PBXNativeTarget "RTCMeetingUITests" */;
+			buildPhases = (
+				78BDB3191E711F62008E614E /* Sources */,
+				78BDB31A1E711F62008E614E /* Frameworks */,
+				78BDB31B1E711F62008E614E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BDB31F1E711F62008E614E /* PBXTargetDependency */,
+			);
+			name = RTCMeetingUITests;
+			productName = RTCMeetingUITests;
+			productReference = 78BDB31D1E711F62008E614E /* RTCMeetingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78BDB2F11E711F62008E614E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jianqiangzhang;
+				TargetAttributes = {
+					78BDB2F81E711F62008E614E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3YB54BC6QT;
+						ProvisioningStyle = Manual;
+					};
+					78BDB3111E711F62008E614E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78BDB2F81E711F62008E614E;
+					};
+					78BDB31C1E711F62008E614E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78BDB2F81E711F62008E614E;
+					};
+				};
+			};
+			buildConfigurationList = 78BDB2F41E711F62008E614E /* Build configuration list for PBXProject "RTCMeeting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78BDB2F01E711F62008E614E;
+			productRefGroup = 78BDB2FA1E711F62008E614E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78BDB2F81E711F62008E614E /* RTCMeeting */,
+				78BDB3111E711F62008E614E /* RTCMeetingTests */,
+				78BDB31C1E711F62008E614E /* RTCMeetingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BDB2F71E711F62008E614E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDB30C1E711F62008E614E /* LaunchScreen.storyboard in Resources */,
+				78BDB3091E711F62008E614E /* Assets.xcassets in Resources */,
+				78BDB3071E711F62008E614E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDB3101E711F62008E614E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDB31B1E711F62008E614E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AF602542FDAEEC909E094E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTCMeeting/Pods-RTCMeeting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE43E20400BE3F48BE0A6191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTCMeeting/Pods-RTCMeeting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE63CFB741392C0711FE5ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78BDB2F51E711F62008E614E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDB3041E711F62008E614E /* ViewController.m in Sources */,
+				78BDB3011E711F62008E614E /* AppDelegate.m in Sources */,
+				78BDB2FE1E711F62008E614E /* main.m in Sources */,
+				78BDB35C1E7148E9008E614E /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				78BDB3431E7124EB008E614E /* TwoViewController.m in Sources */,
+				78BDB34D1E712901008E614E /* ASHUD.m in Sources */,
+				78BDB3401E7124BA008E614E /* OneViewController.m in Sources */,
+				78BDB34E1E712901008E614E /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDB30E1E711F62008E614E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDB3171E711F62008E614E /* RTCMeetingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BDB3191E711F62008E614E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDB3221E711F62008E614E /* RTCMeetingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78BDB3141E711F62008E614E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78BDB2F81E711F62008E614E /* RTCMeeting */;
+			targetProxy = 78BDB3131E711F62008E614E /* PBXContainerItemProxy */;
+		};
+		78BDB31F1E711F62008E614E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78BDB2F81E711F62008E614E /* RTCMeeting */;
+			targetProxy = 78BDB31E1E711F62008E614E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78BDB3051E711F62008E614E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BDB3061E711F62008E614E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78BDB30A1E711F62008E614E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BDB30B1E711F62008E614E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78BDB3241E711F62008E614E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78BDB3251E711F62008E614E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BDB3271E711F62008E614E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB51D7C2A528A0159EBA397E /* Pods-RTCMeeting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = RTCMeeting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dync.RTCMeeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5523b911-1e08-4a37-b17b-0da274068e65";
+				PROVISIONING_PROFILE_SPECIFIER = ZJQ_DEV;
+			};
+			name = Debug;
+		};
+		78BDB3281E711F62008E614E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1245807C9FD57A38D20F50F1 /* Pods-RTCMeeting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = RTCMeeting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dync.RTCMeeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b9ea0a3-4afa-40f8-b1a7-13409e16d175";
+				PROVISIONING_PROFILE_SPECIFIER = ZJQ_DIS;
+			};
+			name = Release;
+		};
+		78BDB32A1E711F62008E614E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RTCMeetingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dync.RTCMeetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTCMeeting.app/RTCMeeting";
+			};
+			name = Debug;
+		};
+		78BDB32B1E711F62008E614E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RTCMeetingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dync.RTCMeetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTCMeeting.app/RTCMeeting";
+			};
+			name = Release;
+		};
+		78BDB32D1E711F62008E614E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RTCMeetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dync.RTCMeetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTCMeeting;
+			};
+			name = Debug;
+		};
+		78BDB32E1E711F62008E614E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RTCMeetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dync.RTCMeetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTCMeeting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78BDB2F41E711F62008E614E /* Build configuration list for PBXProject "RTCMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BDB3241E711F62008E614E /* Debug */,
+				78BDB3251E711F62008E614E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BDB3261E711F62008E614E /* Build configuration list for PBXNativeTarget "RTCMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BDB3271E711F62008E614E /* Debug */,
+				78BDB3281E711F62008E614E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BDB3291E711F62008E614E /* Build configuration list for PBXNativeTarget "RTCMeetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BDB32A1E711F62008E614E /* Debug */,
+				78BDB32B1E711F62008E614E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BDB32C1E711F62008E614E /* Build configuration list for PBXNativeTarget "RTCMeetingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BDB32D1E711F62008E614E /* Debug */,
+				78BDB32E1E711F62008E614E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78BDB2F11E711F62008E614E /* Project object */;
+}

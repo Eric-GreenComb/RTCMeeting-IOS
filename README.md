@@ -12,4 +12,4 @@
   商务洽谈：021-6565007
 3：Demo演示
 -------------
-[RTCMeeting](https://www.pgyer.com/GfxN)
+[RTCMeeting安装包](https://www.pgyer.com/GfxN)
